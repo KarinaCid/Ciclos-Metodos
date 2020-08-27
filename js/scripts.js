@@ -17,22 +17,18 @@ function init (){
         //case 2:
         //do {
             //var pregunta2 = prompt("¿De qué color es el caballo blanco de Napoleón?");
+            //var caso2 = pregunta2.toLowerCase();
         //}
-        //while (pregunta2 !== "Blanco") 
+        //while (caso2 !== "blanco");
+
+
         //case 3:
         var num1 = prompt("Ingresa tu promedio de Matemáticas");
         var num2 = prompt("Ingresa tu promedio de Física");
         var num3 = prompt("Ingresa tu promedio de Ciencias");
-        function promedio (num1, num2, num3) {
-            var num1 = parseInt(num1);
-            var num2 = parseInt(num2);
-            var num3 = parseInt(num3);
-            var resultadoSuma = num1 + num2 + num3;
-            var i = (resultadoSuma.lenght)
-            var resultadoProm = resultadoSuma / i;
-            return resultadoProm;
-        }
-        alert(parseInt("Tu promedio es: " + (promedio(num1, num2, num3).resultadoProm)));
+        var prom = (parseFloat(num1)+parseFloat(num2)+parseFloat(num3))/3;
+            total = Math.round(prom);
+        alert("Su promedio es: "+ total)
             
         
    // }  
