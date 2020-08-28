@@ -20,15 +20,34 @@ function init (){
             //var caso2 = pregunta2.toLowerCase();
         //}
         //while (caso2 !== "blanco");
+        //break;
 
 
         //case 3:
-        var num1 = prompt("Ingresa tu promedio de Matemáticas");
-        var num2 = prompt("Ingresa tu promedio de Física");
-        var num3 = prompt("Ingresa tu promedio de Ciencias");
-        var prom = (parseFloat(num1)+parseFloat(num2)+parseFloat(num3))/3;
-            total = Math.round(prom);
-        alert("Su promedio es: "+ total)
+        //var num1 = prompt("Ingresa tu promedio de Matemáticas");
+        //var num2 = prompt("Ingresa tu promedio de Física");
+        //var num3 = prompt("Ingresa tu promedio de Ciencias");
+        //var prom = (parseFloat(num1)+parseFloat(num2)+parseFloat(num3))/3;
+           // total = Math.round(prom);
+       // alert("Su promedio es: "+ total);
+        //break;
+
+        //case 4:
+      //  var frut1 = prompt("Ingresa el nombre de una fruta por favor");
+        //var frut2 = prompt("Ingresa el nombre de otra fruta por favor");
+        //var frut3 = prompt("Ingresa el nombre de la última fruta por favor");
+        //var frutas = [frut1, frut2, frut3];
+        //for (let fruta of frutas) {
+            //if (fruta.toLocaleLowerCase() === "manzana") {
+                //continue;
+            //}
+            //console.log(fruta)
+        //}
+        //break;
+        
+        //case 5:
+
+        
             
         
    // }  
